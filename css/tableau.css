@@ -1,0 +1,15 @@
+* {
+    margin: 10px;
+    padding: 10px;
+}
+
+
+td {
+    border: 5px solid #3F7F7F;
+    text-align: center;
+}
+
+
+th {
+    border: 5px solid rgb(126, 42, 42);
+}
