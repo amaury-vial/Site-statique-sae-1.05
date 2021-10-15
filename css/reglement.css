@@ -1,0 +1,33 @@
+
+    
+
+
+.img{
+    width: 125px;
+	height: 125px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+}
+
+.R1{
+    text-align:center;
+    font-size: xx-large;
+}
+
+#RT1{
+    text-align: left;
+    font-size: x-large;
+}
+
+#RT2{
+    text-align: left;
+    font-size: 50%;
+}
+
+.R2{
+    text-align: center;
+    font-size: xx-large;
+}
+
