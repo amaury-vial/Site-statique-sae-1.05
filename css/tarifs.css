@@ -1,11 +1,27 @@
 td {
-    border: 5px solid #3F7F7F;
-    text-align: center;
+    border: 1px solid #ddd ;
+    width: 300px;
+    height: 50px;
+    padding: 15px 20px;
+    box-shadow: 0 5px 50px rgba(0,0,0,0.15);
+    
 }
 
 
 th {
-    border: 5px solid rgb(126, 42, 42);
+    border: 5px solid #191970;
+    background-color: midnightblue;
+    color: #fff;
+    padding: 15px 20px;
+    box-shadow: 0 5px 50px rgba(0,0,0,0.15);
+         
+}
+
+
+table {
+    font-size: 40px;
+    text-align: left;
+        
 }
 
 
@@ -15,6 +31,7 @@ th {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    
 }
 
 
@@ -22,14 +39,20 @@ th {
 {
     display: flex;
     justify-content: center;
-    
 }
 
 
 h1
 {
+    color: white;
     text-align: center;
     font-family: arial;
-    text-decoration: underline;
+    border: 10px solid midnightblue;
+    padding: 15px 20px;
+    background-color: midnightblue
 }
 
+body
+{
+    background-color:azure
+}
