@@ -70,3 +70,19 @@ body
 {
     background-color: lightcyan;
 }
+
+.haut_page
+{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    opacity: 60%; 
+}
+
+.haut_page
+{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    opacity: 60%; 
+}

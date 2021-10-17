@@ -91,3 +91,11 @@ input[type=submit], input[type=reset] {
  cursor:pointer;
  }
 
+.haut_page
+{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    opacity: 60%; 
+}
+

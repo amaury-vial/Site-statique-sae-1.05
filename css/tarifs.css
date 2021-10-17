@@ -39,6 +39,10 @@ table {
     
 }
 
+favicon
+{
+    
+}
 
 .tableau_icon
 {
@@ -88,4 +92,12 @@ footer
 body
 {
     background-color: lightcyan;
+}
+
+.haut_page
+{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    opacity: 60%; 
 }
