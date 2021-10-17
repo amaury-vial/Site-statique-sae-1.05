@@ -1,5 +1,10 @@
 .entete{
-    position: fixed;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
 }
 
 .entete a{
@@ -10,6 +15,7 @@
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    background-color: black
 
 }
 
@@ -42,4 +48,3 @@
     }
     
 }
-

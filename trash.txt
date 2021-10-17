@@ -1,8 +1,0 @@
-	<h1>Glory For Sports qu'est ce que c'est ?</h1>
-		<p>Mettre l'expliquation du projet et le but de celui-ci</p>
-	<h2>Lieu ou l'évenement va avoir lieu</h2>
-	<p>Lien direct pour y aller</p>
-	<a href="https://www.google.com/maps/place/10+Av.+des+D%C3%A9port%C3%A9s+de+la+R%C3%A9sistance+Aixoise,+13100+Aix-en-Provence/@43.5252208,5.4588195,17z/data=!3m1!4b1!4m5!3m4!1s0x12c98dea32c79fc1:0xefb970fbe9ac1798!8m2!3d43.5252208!4d5.4610082">Cliquez-ici</a>
-
-
-	<a href="page/page1.html">Page prix</a>

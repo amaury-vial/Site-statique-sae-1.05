@@ -1,10 +1,6 @@
-
-    
-
-
 .img{
     width: 125px;
-	height: 125px;
+    height: 125px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -16,18 +12,61 @@
     font-size: xx-large;
 }
 
-#RT1{
+.Regles{
     text-align: left;
+    font-size: x-large;
+    text-align: left;
+    font-size: 100%;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.RT{
     font-size: x-large;
 }
 
-#RT2{
-    text-align: left;
-    font-size: 50%;
+.Sport{
+    font-size: x-large;
+}
+
+.ExSport{
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 .R2{
     text-align: center;
     font-size: xx-large;
+    text-underline-position: auto;
 }
 
+body{
+    background-color: azure;
+}
+
+
+
+footer
+{
+    padding-top: 23%
+}
+
+.global-footer
+{
+    color: white;
+    text-align: center;
+    font-family: arial;
+    border: 10px solid midnightblue;
+    padding: 15px 20px;
+    background-color: midnightblue;
+}
+
+.bottom
+{
+    background-color:cornflowerblue;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+body
+{
+    background-color: lightcyan;
+}

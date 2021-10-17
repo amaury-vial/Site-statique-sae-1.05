@@ -4,6 +4,8 @@ td {
     height: 50px;
     padding: 15px 20px;
     box-shadow: 0 5px 50px rgba(0,0,0,0.15);
+    font-family: arial;
+    text-align: center
     
 }
 
@@ -14,6 +16,8 @@ th {
     color: #fff;
     padding: 15px 20px;
     box-shadow: 0 5px 50px rgba(0,0,0,0.15);
+    font-family: arial;
+    text-align: center;
          
 }
 
@@ -21,6 +25,7 @@ th {
 table {
     font-size: 40px;
     text-align: left;
+    padding: 15px 20px;
         
 }
 
@@ -55,4 +60,32 @@ h1
 body
 {
     background-color:azure
+}
+
+
+footer
+{
+    padding-top: 23%
+}
+
+.global-footer
+{
+    color: white;
+    text-align: center;
+    font-family: arial;
+    border: 10px solid midnightblue;
+    padding: 15px 20px;
+    background-color: midnightblue;
+}
+
+.bottom
+{
+    background-color:cornflowerblue;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+body
+{
+    background-color: lightcyan;
 }

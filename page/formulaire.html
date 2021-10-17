@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="tournoi,sport,covid,récompenses,vacances" />
+    <meta name="description" content="Site internet du tournoi sportif qui aura lieu les 19,20,21 avril 2021">
+    <title>Glory For Sport</title> 
+    <link rel="stylesheet" href="../css/header.css"> 
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/form.css">
+          
+</head>
+<body>
+
+    <div class = "entete">
+        <a href="../index.html">Home</a>
+        <a href="../page/tarifs.html">Tarif</a>
+        <a href="../page/reglement.html">Reglement</a>
+        <a href="../page/formulaire.html">Formulaire</a>
+        <a href="">Contact</a>
+    </div>
+
+    <div class="formu">
+        <form method="post" action="" enctype="multipart/form-data">
+
+            <label for="prenom">Prenom</label>
+            <input type="text" id="prenom" name="prenom" placeholder="Votre prenom"><br>
+        
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email"placeholder="Votre mail"><br>
+        
+            <label for="civilite">Civilite</label>
+            <p><input type="radio" name="civilite" value="m" checked>Homme
+            <input type="radio" name="civilite" value="f">Femme</p>
+        
+            <label for="ville">Ville</label>
+            <input type="text" id="ville" name="ville" list="france" placeholder="Votre ville">
+        
+            <label for="cp">Code Postale</label>
+            <input type="text" id="cp" name="cp" maxlength="5" pattern="[0-9]{5}" title="5 chiffres requis entre 0 et 9" placeholder="Votre postal"><br>
+        
+            <label for="adresse">Adresse</label>
+            <input id="adresse" name="adresse" rows="5" cols="25"placeholder="Votre adresse"><br>
+        
+            <label for="datedenaissance">Date de Naissance</label>
+            <input type="date" name="datedenaissance" id="datedenaissance"><br>
+        
+            <label for="telephone">Telephone</label>
+            <input type="tel" pattern="^[0-9]{10}$"placeholder="Votre numéro"><br>
+        
+            <input type="submit" value="Valider">
+
+        </form>
+    </div>
+    
+    <!--FOOTER-->
+    <footer>
+    <div class="global-footer">
+        <div class="left box">
+          <h2>About us  </h2>
+          <div class="content">
+            <p>Nous sommes un groupe privé qui s'occupe de l'organisation d'évènements </p>
+          </div>
+        </div>
+          
+        <div class="center box">
+          <h2>Address</h2>
+          <div class="content">
+              
+            <div class="place">
+              <span class="fas fa-map-marker-alt"></span>
+              <span class="text">Aix en Provence</span>
+            </div>
+              
+            <div class="phone">
+              <span class="fas fa-phone-alt"></span>
+              <span class="text">xx-xx-xx-xx-xx</span>
+            </div>
+              
+            <div class="email">
+              <span class="fas fa-envelope"></span>
+              <span class="text">abc@example.com</span>
+            </div><br>
+          </div>
+        </div>
+       
+       
+          <div class="bottom">
+              <span class="credit">Created By G4G <a href="https://iut.univ-amu.fr/diplomes/but-informatique-info-aix"target="_blank">BUT INFO</a> | </span>
+              <span class="far fa-copyright"></span><span> 2020 All rights reserved.</span>
+          </div>
+    </div>
+    </footer>
+    
+</body>
+</html>
