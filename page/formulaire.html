@@ -11,7 +11,7 @@
           
 </head>
 <body>
-    <div id="haut"></div>
+   
 
     <div class = "entete">
         <a href="../index.html">Home</a>
@@ -25,38 +25,36 @@
         <form method="post" action="" enctype="multipart/form-data">
 
             <label for="prenom">Prenom</label>
-            <input type="text" id="prenom" name="prenom" placeholder="Votre prenom"><br>
+            <input type="text" id="prenom" name="prenom" ><br>
         
             <label for="email">Email</label>
-            <input type="email" id="email" name="email"placeholder="Votre mail"><br>
+            <input type="email" id="email" name="email"><br>
         
             <label for="civilite">Civilite</label>
             <p><input type="radio" name="civilite" value="m" checked>Homme
             <input type="radio" name="civilite" value="f">Femme</p>
         
             <label for="ville">Ville</label>
-            <input type="text" id="ville" name="ville" list="france" placeholder="Votre ville">
+            <input type="text" id="ville" name="ville" list="france" >
         
             <label for="cp">Code Postale</label>
-            <input type="text" id="cp" name="cp" maxlength="5" pattern="[0-9]{5}" title="5 chiffres requis entre 0 et 9" placeholder="Votre postal"><br>
+            <input type="text" id="cp" name="cp" maxlength="5" pattern="[0-9]{5}" title="5 chiffres requis entre 0 et 9" ><br>
         
             <label for="adresse">Adresse</label>
-            <input id="adresse" name="adresse" rows="5" cols="25"placeholder="Votre adresse"><br>
+            <input id="adresse" name="adresse" rows="5" cols="25"><br>
         
             <label for="datedenaissance">Date de Naissance</label>
             <input type="date" name="datedenaissance" id="datedenaissance"><br>
         
             <label for="telephone">Telephone</label>
-            <input type="tel" pattern="^[0-9]{10}$"placeholder="Votre numéro"><br>
+            <input type="tel" pattern="^[0-9]{10}$"><br>
         
             <input type="submit" value="Valider">
 
         </form>
     </div>
     
-    <div class="haut_page">
-        <a href="#haut"><img src="../img/Fleche.png"/></a>
-    </div>
+    
     
     <!--FOOTER-->
     <footer>
