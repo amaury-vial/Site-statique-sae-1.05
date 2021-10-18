@@ -22,6 +22,11 @@
     
 }
 
+p{
+    display: flex;
+    justify-content: center;
+}
+
 footer
 {
     padding-top: 37%

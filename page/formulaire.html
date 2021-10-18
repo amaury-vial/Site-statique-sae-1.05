@@ -2,6 +2,7 @@
 <html lang="fr">
 <head>
     <meta charset="utf-8">
+    <link rel="icon" href="../img/favicon.ico">
     <meta name="keywords" content="tournoi,sport,covid,récompenses,vacances" />
     <meta name="description" content="Site internet du tournoi sportif qui aura lieu les 19,20,21 avril 2021">
     <title>Glory For Sport</title> 
@@ -13,14 +14,14 @@
 <body>
    
 
-    <div class = "entete">
-        <a href="../index.html">Home</a>
-        <a href="../page/tarifs.html">Tarif</a>
-        <a href="../page/reglement.html">Reglement</a>
-        <a href="../page/formulaire.html">Formulaire</a>
-        <a href="/page/recompenses.html">Récompenses</a>
-    </div>
-
+  <div class = "entete">
+		<a href="../index.html">Home</a>
+		<a href="../page/tarifs.html">Tarif</a>
+		<a href="../page/reglement.html">Reglement</a>
+		<a href="../page/formulaire.html">Formulaire</a>
+		<a href="../page/recompenses.html">Récompenses</a>
+	</div>
+    <p>Pour vous inscrire veuillez remplir ce formulaire :</p>
     <div class="formu">
         <form method="post" action="https://www.mickael-martin-nevot.com/" enctype="multipart/form-data">
 
@@ -32,10 +33,10 @@
         
             <label for="civilite">Civilite</label>
             <p><input type="radio" name="civilite" value="m" checked>Homme
-            <input type="radio" name="civilite" value="f">Femme</p>
+            <input id="civilite" type="radio" name="civilite" value="f">Femme</p>
         
             <label for="ville">Ville</label>
-            <input type="text" id="ville" name="ville" list="france" >
+            <input type="text" id="ville" name="ville">
         
             <label for="cp">Code Postale</label>
             <input type="text" id="cp" name="cp" maxlength="5" pattern="[0-9]{5}" title="5 chiffres requis entre 0 et 9" ><br>
@@ -47,7 +48,7 @@
             <input type="date" name="datedenaissance" id="datedenaissance"><br>
         
             <label for="telephone">Telephone</label>
-            <input type="tel" pattern="^[0-9]{10}$"><br>
+            <input id="telephone" type="tel" pattern="^[0-9]{10}$"><br>
         
             <input type="submit" value="Valider">
 
