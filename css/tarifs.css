@@ -23,9 +23,8 @@ th {
 
 
 table {
-    font-size: 40px;
-    text-align: left;
-    padding: 15px 20px;
+    display: flex;
+    justify-content: center;
         
 }
 
@@ -55,7 +54,6 @@ h1
     text-align: center;
     font-family: arial;
     border: 10px solid midnightblue;
-    padding: 20px 20px;
     background-color: midnightblue
 }
 
@@ -67,7 +65,7 @@ body
 
 footer
 {
-    padding-top: 23%
+    padding: top 30%;
 }
 
 .global-footer
@@ -115,13 +113,11 @@ body
 
 .anti_cov
 {
-    width: 800px;
-	height: 1000px; 
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 50px
-    
+    width: 25%;
+	height: 10%;
+    display: flex;
+    margin-left: 38%;
+    padding-top: 5%;
 }
 
 .global-footer
@@ -133,12 +129,25 @@ body
 {
     font-family: arial;
     padding: 100px;
-    text-align: center
+    text-align: center;
+    font-size: xx-large;
+    
 }
 
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .formu form{
+    padding-top: 20%;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .formu form{
+        padding-top: 19%;
+    }
+}
 
-
-.nourriture
-{
-    text-align: center;
+@media only screen and (min-width: 1200px) and (max-width: 5120px) {
+    .formu form{
+        padding-top: 5%;
+    }
+    
 }

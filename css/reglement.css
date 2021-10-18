@@ -8,7 +8,7 @@
     margin-right: auto;
 }
 
-.R1{
+h1{
     color: white;
     text-align: center;
     font-family: arial;
@@ -93,4 +93,22 @@ body
 .global-footer
 {
     font-size: x-large;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .formu form{
+    padding-top: 20%;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .formu form{
+        padding-top: 19%;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 5120px) {
+    .formu form{
+        padding-top: 5%;
+    }
+    
 }
