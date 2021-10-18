@@ -102,3 +102,8 @@ input[type=submit], input[type=reset] {
     opacity: 60%; 
 }
 
+.global-footer
+{
+    font-size: x-large;
+}
+

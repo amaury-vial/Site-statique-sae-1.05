@@ -100,8 +100,45 @@ body
     opacity: 60%; 
 }
 
-.favicon_G4SS
+
+.pass_sani
 {
+    font-family: arial;
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    border: 10px solid midnightblue;
+    padding:10px;
+    text-decoration: underline;
     
+}
+
+.anti_cov
+{
+    width: 800px;
+	height: 1000px; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px
     
+}
+
+.global-footer
+{
+    font-size: x-large;
+}
+
+.tarifs_complement
+{
+    font-family: arial;
+    padding: 100px;
+    text-align: center
+}
+
+
+
+.nourriture
+{
+    text-align: center;
 }

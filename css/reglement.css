@@ -89,3 +89,8 @@ body
     padding-top: 100px;
     opacity: 60%; 
 }
+
+.global-footer
+{
+    font-size: x-large;
+}

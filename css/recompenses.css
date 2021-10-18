@@ -1,3 +1,21 @@
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .formu form{
+    padding-top: 20%;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .formu form{
+        padding-top: 19%;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 5120px) {
+    .formu form{
+        padding-top: 5%;
+    }
+    
+}
+
 .TabIn{
     text-align: center;
     font-family: arial;
@@ -31,3 +49,4 @@ body
 {
     padding-top: 140px;
 }
+
