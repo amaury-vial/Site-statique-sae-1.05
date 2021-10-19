@@ -17,6 +17,7 @@ h1{
     background-color: midnightblue
 }
 
+/* Explications des rèles */
 .Regles{
     text-align: left;
     text-align: left;
@@ -40,6 +41,7 @@ h1{
     font-size: xx-large;
     text-underline-position: auto;
 }
+/* Explications des rèles */
 
 body{
     background-color: azure;
@@ -74,6 +76,7 @@ body
     background-color: lightcyan;
 }
 
+/* Flèche pour retour vers le haut */
 .haut_page
 {
     display: flex;
@@ -89,11 +92,15 @@ body
     padding-top: 100px;
     opacity: 60%; 
 }
+/* Flèche pour retour vers le haut */
+
 
 .global-footer
 {
     font-size: x-large;
 }
+
+/* mediaqueries*/
 
 @media only screen and (min-width: 768px) and (max-width: 992px) {
     .formu form{

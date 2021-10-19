@@ -1,28 +1,40 @@
+*{
+    font-family: sans-serif;
+}
+
+ /* Navbar*/ 
 .entete{
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    box-sizing: border-box;
     position: fixed;
 }
 
+/* Navbar*/
 .entete a{
     background-color: rgb(66, 49, 49);
     border: none;
     color: wheat;
-    padding: 15px 32px;
+    padding: 10px 10px;
     text-align: center;
     display: inline-block;
     background-color: black;
-    text-decoration: overline;
+    text-decoration: underline;
+
+    transition: 0.2s background;
 }
 
+/* Navbar*/
 .entete a:hover{
     background: orange;
+    transition: 0.2s background;
 }
 
+/* Navbar*/
 .entete{
     background-color: black;
 }
@@ -35,6 +47,7 @@ h1{
     display: flex;
     justify-content: center;
     font-size: xx-large;
+    border-radius: 4px;
 }
 
 h2{
@@ -58,19 +71,28 @@ body {
     font-size: 16px;
 }
 
+
+/* Bannière*/
 .ban{
     height: 50%;
     width: 100%;
-    
+    border-radius: 4px;
+    transition: 0.2s transform;
+    cursor: pointer;
+}
+.ban:hover {
+    transition: 0.2s transform;
+    transform: scale(102%);
 }
 
 p{
     font-size: x-large;
+    text-align: center;
 }
 
 
 
-
+/* @media*/
 @media only screen and (min-width: 768px) and (max-width: 992px) {
     .entete a{
         font-size: 42px;
@@ -84,15 +106,8 @@ p{
     }
 }
 
-@media only screen and (min-width: 1200px) and (max-width: 5120px) {
-    .entete a{
-        font-size: 45px;
-        color: wheat;
-        padding: 15px 97.5px;
-    }
-    
-}
 
+/* Flèche pour retour vers le haut de page*/
 .haut_page
 {
     display: flex;
@@ -101,12 +116,3 @@ p{
     opacity: 60%; 
 }
 
-
-.favicon_G4S
-{
-    padding-top: 170px;
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    
-}

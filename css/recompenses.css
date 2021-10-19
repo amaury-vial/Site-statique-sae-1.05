@@ -16,6 +16,8 @@
     
 }
 
+
+/* Tableaux récompenses*/
 .TabIn{
     text-align: center;
     font-family: arial;
@@ -46,6 +48,11 @@ td {
     padding: 15px 20px;
     box-shadow: 0 5px 50px rgba(0,0,0,0.15);
 }
+
+td img {
+    width: 140px;
+}
+/* Tableaux récompenses*/
 
 body
 {

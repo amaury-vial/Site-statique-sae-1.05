@@ -1,3 +1,4 @@
+/* Tableaux */
 td {
     border: 1px solid #ddd ;
     width: 300px;
@@ -47,6 +48,7 @@ table {
     justify-content: center;
 }
 
+/* Tableaux */
 
 h1
 {
@@ -68,6 +70,7 @@ footer
     padding: top 30%;
 }
 
+/* FOOTER */
 .global-footer
 {
     color: white;
@@ -85,11 +88,19 @@ footer
     padding-bottom: 20px;
 }
 
+.global-footer
+{
+    font-size: x-large;
+}
+
+/* FOOTER */
+
 body
 {
     background-color: lightcyan;
 }
 
+/* Flèche haut de page */
 .haut_page
 {
     display: flex;
@@ -98,7 +109,10 @@ body
     opacity: 60%; 
 }
 
+/* Flèche haut de page */
 
+
+/* Logo pass sanitaire */
 .pass_sani
 {
     font-family: arial;
@@ -119,11 +133,9 @@ body
     margin-left: 38%;
     padding-top: 5%;
 }
+/* Logo pass sanitaire */
 
-.global-footer
-{
-    font-size: x-large;
-}
+/* Tarifs détaillé en bas de page */
 
 .tarifs_complement
 {
@@ -133,6 +145,8 @@ body
     font-size: xx-large;
     
 }
+
+/* Tarifs détaillé en bas de page */
 
 @media only screen and (min-width: 768px) and (max-width: 992px) {
     .formu form{

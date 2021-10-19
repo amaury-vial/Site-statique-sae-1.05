@@ -1,3 +1,4 @@
+/* Encadré */
 .formu {
     text-align: center;
     font-family: arial;
@@ -37,9 +38,10 @@ h1{
 
 footer
 {
-    padding-top: 37%
+    padding-top: 37%;
 }
 
+/* Footer*/
 .global-footer
 {
     color: white;
@@ -47,7 +49,7 @@ footer
     font-family: arial;
     border: 10px solid midnightblue;
     padding: 15px 20px;
-    background-color: midnightblue;
+    background-color:midnightblue;
 }
 
 .bottom
@@ -63,13 +65,7 @@ body
 }
 
 
-body
-{
-    background-color: lightcyan;
-  
-}
-
-
+/* FORMULAIRE*/
 label {
     margin-top:0px;
     display:block;
@@ -102,11 +98,12 @@ input[type=radio] {
 input[type=submit], input[type=reset] {
     width:100px;
     box-shadow:1px 1px 1px #D83F3D;
-    cursor:pointer;
-    
-    
+    cursor:pointer;  
  }
+/* FORMULAIRE*/
 
+
+/* Flèche Haut de page */
 .haut_page
 {
     display: flex;
